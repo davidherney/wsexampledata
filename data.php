@@ -10,6 +10,8 @@ $data['empty'] = array();
 
 
 // File from https://www.briandunning.com/sample-data/
+// fields: firstname;lastname;institution;address;city;county;state;zip;phone1;phone2;email;web;username
+// change "," (coma) by ";" (semicolon) as separator, whitout quotation marks ("")
 $file = file('us-500.csv');
 $fields = explode(';', $file[0]);
 
